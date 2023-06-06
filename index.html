@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: 'Satisfy', cursive;
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        background: url('gym girl.jpg');
+
+    }
+
+    .left {
+        /* border: 2px solid whitesmoke ; */
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 34px;
+    }
+
+    .left div {
+        line-height: 0px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 53%;
+        margin: 20px auto;
+        border: 2px solid white;
+    }
+
+    .right {
+        /* border: 2px solid yellow; */
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+    }
+
+    .navbar {}
+
+    .navbar li {
+        display: inline-block;
+        font-size: 22px;
+    }
+
+    .navbar li a {
+        color: aliceblue;
+        text-decoration: none;
+        /* padding: 34px 23px; */
+        padding: 19px 46px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        font-family: 'Satisfy', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    .container {
+        box-sizing: border-box;
+        padding: 7px 47px;
+        margin: 91px 54px;
+        border: 2px solid white;
+        width: 33%;
+        border-radius: 12px;
+    }
+
+    .formgroup input {
+        font-family: 'Satisfy', cursive;
+        text-align: center;
+        display: block;
+        width: 54%;
+        padding: 10px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 14px;
+        border-radius: 44px;
+    }
+
+    .container H1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 60%;
+        margin: 1px auto;
+        border-radius: 34px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.jpg" alt="">
+            <!-- <img src="Sanket super compress pic (1).jpg" alt=""> -->
+            <div>Sanketdumbells</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <H1>Join the Best Gym of Sanket Universe</H1>
+        <form action="#">
+            <div class="formgroup">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="Enter your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="Enter your Phone Number">
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="Enter your Mobile Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
